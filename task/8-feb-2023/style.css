@@ -1,0 +1,74 @@
+<style>
+    * {padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+    body {
+      margin: 0;
+      padding: 0;
+font-size: 16px;
+line-height: 20px;
+color: var(--black);
+font-weight: 400;
+font-family: 'Segoe UI',sans-serif;}
+
+header {height: 70px;
+text-align: center;
+    width: auto;
+        background: #ecf5fb;
+     position: sticky;
+top: 0;
+}
+img {padding: 15px;
+        width: 340px;
+        }
+       .section {height: 600px;
+                background-color: gainsboro;
+                }
+        
+        .login {margin: auto;
+                width: 380px;
+            height: 450px ;
+                border: #4c92be solid;
+                border-radius: 5%;
+                background: #EDF5FB;
+box-shadow: 0 4px 14px black;
+
+          }
+          h1 {text-align: center;
+            color: #4c92be;
+          margin-top: 40px;
+            font-weight: 700;
+               }
+               p { color: #3d3d3d;
+                font-weight: 700;
+                text-align: center;
+                font-size: x-large;
+                      }
+
+            form { text-align: center;}
+            .mb-2, a {margin-right: 120px;}
+            .mb-3 {margin-right: 170px;}
+         
+label {
+display: inline-block;
+}
+input {border: 2px gainsboro solid;
+border-radius: 5px;
+padding: 0.5rem 2rem;
+margin-bottom: 1rem;
+}
+a {text-decoration: none;}
+.btn {
+background-image: linear-gradient(to right, #172c4d 0%, #c2e9fb 51%, #6b81a5 );
+cursor: pointer;
+color: #0c0c0c;
+height: 50px;
+width: 200px;
+}
+.btn:hover { box-shadow: 1px 2px #1f1f3b;}
+.container {background: rgb(155, 134, 134);
+height: 200px;}
+
+
+</style>
