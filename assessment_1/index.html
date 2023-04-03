@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="stylesheet1.css">
+    <link rel="icon" type="image/x-icon" href="../assessment/favicon.jpg">
+</head>
+<body>
+    <h1>
+        Student Registration Form
+    </h1>
+    <div class="main_container">
+    <form>
+        
+        <div class="firstname col25">
+        <label >First Name:</label>
+        </div>
+        <div class="firstname col75">
+        <input  type="text"  placeholder="Enter Your First Name" minlength="3" maxlength="6" pattern="[a-zA-Z]*" 
+        oninvalid="setCustomValidity('Please enter on alphabets only. ')" required >
+        </div>
+        
+        <div class="lastname col25">
+        <label >Last Name:</label>
+        </div>
+        <div class="lastname col75">
+        <input type="text" placeholder="Enter Your Last Name" pattern="[a-zA-Z]*" 
+        oninvalid="setCustomValidity('Please enter on alphabets only. ')" required>
+        </div>
+
+        <div class="email col25">
+        <label>Email:</label>
+        </div>
+        <div class="col75">
+        <input type="email" placeholder="shubha@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        </div>
+        
+        <div class="number col25">
+        <label>Mobile:</label>
+        </div>
+        <div class="col75">
+        <input type="number" placeholder="only 10 digits are allowed" maxlength="10" pattern = "[0-9]{10}" required>
+        </div>
+
+        <div class="gender col25">
+        <label required>Gender:</label>
+        </div>
+        <div class="col75">
+        <input type="radio" name="Gender" required value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" required value="Female">
+        <label for="Female">Female</label>
+        </div>
+
+        <div class="date col25">
+        <label for="Date">Date Of Birth:</label>
+        </div>
+        <div class="col75">
+        <input type="date" name="date_of_birth" required value="">
+        </div>
+
+        <div class="address col25">
+        <label>Address:</label>
+        </div>
+        <div class="col75">
+        <textarea cols="30" rows="10" name="Address" required></textarea>
+        </div>
+
+        <div class="city col25">
+        <label for="City">City:</label>
+        </div>
+        <div class="col75">
+        <input type="text" name="city" required value="">
+        </div>
+
+        <div class="pincoad col25">
+        <label for="Area Pin">Area Pin:</label>
+        </div>
+        <div class="col75">
+        <input type="text" name="area_pin" required value="" pattern="[0-9]{6}">
+        </div>
+
+        <div class="state col25">
+        <label for="State">State:</label>
+        </div>
+        <div class="col75">
+        <input type="text" name="state" required value="">
+        </div>
+
+        <div class="qualification col25">
+        <label for="">Qualification:</label>
+        </div>
+        <div class="col75">
+        <select name="qualification" required>
+            <option value="">Select Qualification</option>
+        <optgroup label="Arts">
+            <option value="B.A.">B.A.</option>
+            <option value="M.A.">M.A.</option>
+            <option value="B.ed.">B.ed</option>
+            <option value="M.ed.">M.ed</option>
+        </optgroup>
+        <optgroup label="Commerce">
+            <option value="BBA">BBA</option>
+            <option value="MBA">MBA</option>
+            <option value="CA">CA</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+        </optgroup>
+        <optgroup label="Science">
+            <option value="B.sc.">B.sc.</option>
+            <option value="M.sc.">M.sc.</option>
+            <option value="MBBS">MBBS</option>
+            <option value="B.farm">B.farm</option>
+            <option value="M.farm">M.farm.</option>
+            <option value="P.hd.">P.hd.</option>
+        </optgroup>
+        </select>
+        </div>
+
+        <div class="specialization col25">
+        <label for="specialization" required>Specialization:</label>
+        </div>
+        <div class="col75">
+        <input type="checkbox" name="" value="Computer Science">
+        <label for="specialization">Computer Science</label><br >
+        <input type="checkbox" name="" value="Information Technology">
+        <label for="specialization">Information Technology</label><br>
+        <input type="checkbox" name="" value="Computer Architecture">
+        <label for="specialization">Computer Architecture</label><br>
+        <input type="checkbox" name="" value="Tele Communication">
+        <label for="specialization">Tele Communication</label>
+        </div>
+
+        <div class="password col25">
+        <label for="Password">Password:</label>
+        </div>
+        <div class="col75">
+        <input type="password" name="" value="" required placeholder="***********" pattern=".{8,}">
+        </div>
+
+        <div class="btn">
+        <button value="Registration">Registration</button>
+        </div>
+    </form>
+    </div>
+
+
+</body>
+</html>
