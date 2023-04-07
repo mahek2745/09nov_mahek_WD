@@ -1,0 +1,48 @@
+*{margin: 0px;
+    padding: 0px;
+box-sizing: border-box;}
+
+    .main_container {width: 300px ;
+            margin: auto;
+            height: 420px;
+            box-shadow: 1px 5px 5px 5px rgb(69, 68, 68);
+            background:  #425062;
+            margin-top: 120px;
+        }
+
+    .result_screen {padding: 30px;
+                    background-color: black;}
+    .oprate_container {font-size: 25px;
+                        text-align: right;
+                        padding-bottom: 10px;
+                        color: lightgray;
+                    }
+   .result {font-size: 30px;
+                        text-align: end;
+                        padding-top: 10px;
+                        color: rgb(245, 242, 242);
+                    }
+    
+    .button-row {display: table;
+        }
+
+         button {
+display: table-cell;
+width: 24%;
+background: #425062;
+color: #fff;
+height: 56px;
+font-size: 20px;
+border: none;
+border-color:#2c2d2e;
+border-width: 1px 1px 0px 0;
+border-style: solid;
+
+}
+
+button:hover {background: lightgray;
+        color: #2c2d2e;}
+.C {
+color: red;}
+
+.C:hover {color: red;}
