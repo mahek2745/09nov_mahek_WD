@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/media_query/contactus_media.css">
+    <link rel="stylesheet" href="../assets/css/contactus_style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="../assets/javascript/contactus.js"></script>
+    <script src="../assets/javascript/toggle_j-query.js"></script>
+</head>
+<body>
+  <header class="header">
+    <img src="../assets/images/logo.png" class= "main_logo" alt="">
+
+</header>
+
+<section>
+
+<nav for="media_navlist">
+    <div class="bar_icon1">
+        <i class="fa fa-bars" id="bar_icon" aria-hidden="true" style="font-size: 30px;"></i><br>
+        <div class="media_menu">
+            <ul class="media_menu_list1">
+                    <a target="_top" href="services.html" ><li class="media_1_list"> SERVICE </li></a>
+                    <a target="_top" href="" ><li class="bride  media_1_list"> BRIDAL 
+                            <ul class="inner-list1">
+                                <a target="_top" href="Engagement_package.html" ><li>Engagement Makeup</li></a>
+                                <li class="bride_makeup">Bridal makeup</li>
+                                        <ul class="package1">
+                                                    <a target="_top" href="Bridal_package1.html" ><li>package 1 - <b><span>&#8377;</span> 5999</b> </li></a>
+                                                    <a target="_top" href="Bridal_package2.html" ><li>package 2 - <b><span>&#8377;</span> 8999 </b> </li></a>
+                                                    <a target="_top" href="Bridal_package3.html" ><li>package 3 - <b><span>&#8377;</span> 12999 </b></li></a>
+                                        </ul>
+                                     </ul>
+                                    </li>
+                                    <a target="_top" href="Course.html" ><li class="media_1_list"> COURSES </li></a>
+                                    <a target="_top" href="appoinment.html" ><li class="media_1_list"> FIX AN APPOINMENT </li></a>
+                    <hr class="media_hr">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <nav>
+        <img src="../assets/images/logo.png" class= "media_main_logo" alt="">
+        <div class="div1">
+            <ul class="list1">
+             <a target="_top" href="home.html"><li> HOME </li></a>
+             <a target="_top" href="services.html" ><li> SERVICE </li></a>
+             <a target="_top" href="" ><li class="bride"> BRIDAL 
+                 <ul class="inner-list">
+                     <a target="_top" href="Engagement_package.html" ><li>Engagement Makeup</li></a>
+                     <li class="bride_makeup">Bridal makeup</li>
+                         <ul class="package">
+                            <a target="_top" href="Bridal_package1.html" ><li>package 1 - <b><span>&#8377;</span> 5999</b> </li>
+                                <a target="_top" href="Bridal_package2.html" ><li>package 2 - <b><span>&#8377;</span> 8999 </b> </li>
+                                <a target="_top" href="Bridal_package3.html" ><li>package 3 - <b><span>&#8377;</span> 12999 </b></li>
+                         </ul>
+                 </ul>
+             </li></a>
+             <a target="_top" href="Course.html" ><li> COURSES </li></a>
+             <a target="_top" href="appoinment.html" ><li> FIX AN APPOINMENT </li></a>
+             <a target="_top" href="feedback.html" ><li> FEEDBACK </li></a>
+             <a target="_top" href="contact_us.html" ><li> CONTACTS </li></a>
+             </ul>
+             <ul class="media_list1">
+                 <a target="_top" href="home.html"><li> HOME </li></a>
+                 <a target="_top" href="feedback.html" ><li> FEEDBACK </li></a>
+                 <a target="_top" href="contact_us.html" ><li> CONTACTS </li></a>
+             </ul>
+         </div>
+    </nav>
+
+        <div class="contact_form">
+            <div class="div_1">
+            <h1 class="heading1">Contact us</h1> <br>
+            <p class="paragraph1">Planning to visit Beauty parlour soon? <br>
+                Get insider tips on what should you do for your beauty, 
+                things to do and find best deals for your next appoinment.</p>
+            
+            <form id="form1" method="post" action="#">
+              <div class="form-group">
+                <label for="name">Full name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+              <br>
+              <br><br>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>&nbsp;&nbsp;&nbsp;
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+              <br>
+          <br><br>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+              <br>
+          <br>
+        </div>
+              <button type="submit" id="submit" name="submit" onclick="formvalidation()">Send</button><br>
+          
+        </form>
+            </div>
+        
+            <div class="div_2">
+        <img src="../assets/images/banner3.png" class="contact_img">
+        
+            </div>
+          </div>
+        </section>
+        <footer>
+            <p class="footer_p"> <span>Website discovered by<span> <span class="samantha">Samantha Technology</span></p>
+             </footer>
+</body>
+</html>
