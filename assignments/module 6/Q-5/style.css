@@ -1,0 +1,12 @@
+h1 {text-align: center;}
+
+ul li{margin: 10px;
+      font-weight: 900;}
+
+.col-sm-4 {
+      border: 1px solid;
+      padding: 10px;
+      margin-bottom: 1px;
+      }
+.extra {padding: 20px;}
+
