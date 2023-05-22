@@ -1,0 +1,143 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+  
+
+  body {background-image: url(../assets/images/background.jpg)!important;
+      background-position: 50px 150px;
+      background-attachment: scroll;
+      background-size: cover;
+      overflow-x: hidden;
+      }
+
+ a {text-decoration: none!important;
+     color: black!important;
+     font-weight: 700;}
+
+  a:hover {color: white;}
+  
+  header {height: 30px;}
+
+  
+  section {   height: 100%;
+              border: 1px solid rgb(247, 243, 243);
+              border-radius: 10px;
+              box-shadow: 2px 2px rgb(246, 244, 244);}
+
+.list1 li:hover{background-color: rgb(64, 6, 119);
+                background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(236,194,236,1));
+                border-radius: 10px;
+                box-shadow: 5px;
+                color: white;
+                cursor: pointer;
+                transition-duration: 2s;
+                  }
+.list2 {
+    background-color: aliceblue;
+}
+  
+  .banner-1 {height: 400px;}
+
+  .course {   height: 40px;
+              line-height: 25px;
+              background-image:  linear-gradient(to bottom, rgba(255,0,0,0), rgba(236,194,236,1));}
+
+  .course:hover {background-color: rgb(236, 167, 173);
+                      cursor: pointer;}
+
+  .right {background-color: purple;
+          width: 25px;
+          height: 25px;
+          line-height: 25px;
+              }
+              
+.letter {font-family:'Segoe Script';
+                color: plum; }
+
+.signin {font-family: 'Segoe Script';}
+      
+.text {height: 40px;
+        border-radius: 20px;}
+          
+.submit:hover, .registration:hover { background-color: rgb(134, 130, 130)!important;
+                      color: brown!important;
+                      font-weight: 900;
+                      cursor: pointer;
+                  }
+
+.badge {font-size: smaller!important;}
+
+
+.read:hover {background-color: black;
+                  color: whitesmoke;
+                  font-weight: 100;}
+      
+.discription_lorem, .service_lorem {display: none;}
+      
+
+.salon{font-size: 40px;
+              color: rgb(201, 102, 201);
+              font-family: 'Segoe Script';}
+
+.hours {font-size: 40px;
+              font-family: 'Segoe Script';}
+      
+.sunday {color: black;
+               font-size: 30px;
+              }
+
+.appoinment {color: purple;
+                   font-size: 20px;}
+      
+.service {font-family:'Courier';
+                color: rgb(105, 102, 105); 
+                font-size: 40px;
+                height: 50px ;
+                margin:auto;}
+
+.slider {width: 800px;
+               height: 300px;
+              border: 1px solid rgb(107, 104, 104);
+              margin: auto!important;
+              background-color: lightgray;
+              position: relative;
+              z-index: 0;
+              overflow: hidden;
+              }
+.slider1, .slider2, .slider3 {
+                                   margin: 20px 10px;
+                                   width: 350px;
+                                  height: 250px;
+                                  border: 1px solid;
+                                  float: left;
+                                  background-color: white;
+                                  background-image:  linear-gradient(to top, rgba(252, 250, 250, 0), rgba(236,194,236,1));
+                                  }
+
+.slider_left {height: auto;
+                      width: 50px;
+                      border: 1px solid;
+                      border-radius: 50% ;
+                      text-align: center;
+                      position: relative;
+                     top: 150px;
+                      color: purple;
+                      z-index: 1;}
+
+.slider_right {height: auto;
+                      width: 50px;
+                      border: 1px solid;
+                      border-radius: 50% ;
+                      text-align: center;
+                      float: right;
+                      position: relative;
+                      bottom: 185px;
+                      z-index: 1;
+                      color: purple;}
+
+.img1 {width: 180px;
+              margin: 25px;
+              height: 120px;}
+
+.slider_p1, .slider_p2, .slider_p3 {margin-left: 20px;
+                                          color: purple;}
