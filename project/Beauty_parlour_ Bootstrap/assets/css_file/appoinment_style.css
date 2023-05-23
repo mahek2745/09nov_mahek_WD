@@ -1,0 +1,41 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+  
+
+
+a {text-decoration: none!important;
+     color: black!important;
+     font-weight: 700;}
+
+a:hover {color: white;}
+  
+header {height: 30px;}
+
+  
+section {   height: 100%;
+              border: 1px solid rgb(247, 243, 243);
+              border-radius: 10px;
+              box-shadow: 2px 2px rgb(246, 244, 244);}
+
+.list1 li:hover{background-color: rgb(64, 6, 119);
+                background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(236,194,236,1));
+                border-radius: 10px;
+                box-shadow: 5px;
+                color: white;
+                cursor: pointer;
+                transition-duration: 2s;
+                  }
+.list2 {
+    background-color: aliceblue;}
+
+input:hover, input:focus {outline: none;
+            border: 2px solid darkred;}
+
+label {color: rgb(12, 12, 12);
+                font-weight: 700;}
+
+.request {font-size: larger;
+          font-weight: 900;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          text-shadow: 2px 2px 4px #000000;}
