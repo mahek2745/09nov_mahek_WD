@@ -1,0 +1,256 @@
+
+@media only screen and (min-width: 1200px ){
+    .media_list1, .bar_icon1, .media_main_logo, .media_image {display: none;}
+}
+
+
+@media only screen and  (max-width: 1680px) {
+
+.slider {z-index: 0;
+         }
+.slider_left, .slider_right {z-index: 1;}
+
+}
+
+@media only screen and  (max-width: 1600px) {
+    .slider_left {position: relative;
+                    left: 50px;}
+    .slider_right {position: relative;
+                    right: 50px;}
+}
+
+@media only screen and (max-width: 1400px ) and (min-width: 1000px ) {
+
+    .slider {width: 700px;
+             height: 280px;}
+    .slider1, .slider2, .slider3 {width: 200px;
+                                  height: 235px;}
+    .img1, .img2, .img3 {width: 150px;
+                         height: 100px;}
+}
+
+
+@media only screen and (max-width: 1200px ) and (min-width: 700px ) {
+
+    .media_list1, .bar_icon1, .media_main_logo, .media_image {display: block;}
+
+
+    .list1 {
+        font-size: 12px;
+        padding: 15px;}
+
+        .list1 li {
+            margin-left: 30px;}
+
+    .slider {width: 500px;
+        height: 150px;
+        position: relative;
+        bottom: 20px;}
+
+.slider1, .slider2, .slider3 {width: 130px;
+                             height: 100px;
+                            }
+.img1, .img2, .img3 {width: 120px;
+                    height: 70px;
+                    position: relative;
+                    left: -20px;
+                    bottom: 10px;
+                    }
+.slider_p1,.slider_p2, .slider_p3 {display: none;}
+.slider_left {position: relative;
+               top: 80px;
+                }
+.slider_right {position: relative;
+    top: -130px;
+    right: 50px;}
+
+.media_main_logo {position: relative;
+        left: 350px;
+     bottom: 20px;}
+
+.media_list1 {position: relative;
+        right: 40px;
+        width: 280px;}
+
+    
+}
+
+
+@media only screen and (max-width: 1200px ) and (min-width: 200px ) {
+
+    section, .div2 {height: 100%;}
+
+    .slider, .slider_right, .slider_left, .list1, .main_logo {display: none!important;}
+
+    .banner-1 {margin: 5px;}
+
+    .media_list1 {position: relative;
+                  right: 100px;}
+
+    .media_list1 li {margin-left: 5px;
+                     position: relative;
+                    top: 40px;}
+
+    .bar_icon1 {position: relative;
+                top: 80px;
+                left: 30px;}
+    
+    .media_main_logo {position: relative;
+                           left: 350px;
+                        bottom: 20px;}
+
+    .log-in, .appoinment_detail {width: 100%;
+                                    margin-top: 10%;}
+    
+    .facebook {
+            position: relative;
+            bottom: 40px!important;
+            left: 100px!important;
+            font-size: 10px;
+        }
+
+    .appoinment_detail {margin-left: 80px;}
+    
+    .open_hours {
+                 width: 400px;
+                 margin-top: 50px;
+                text-align: center;}
+
+    
+    .services_detail {width: 100%;}  
+    
+
+
+    .footer_p {position: relative;
+                bottom: 5px;
+                left: 20px;}
+
+    .media_image {position: relative;
+                  bottom : 10px;}
+    
+    .media_img1, .media_img3 { width: 99.9%;
+                                border-radius: 30px;}
+    
+    }
+
+    @media only screen and (max-width: 1200px ) and (min-width: 1100px ) {
+        
+
+        .media_list1 {position: relative;
+                      right: 40px;}
+
+        .banner {width: 98%;
+                margin: auto;}
+    }
+
+    @media only screen and (max-width: 1000px ) and (min-width: 900px ) {
+
+        .media_list1 {position: relative;
+                      right: 160px;}
+
+        .banner {width: 98%;
+                margin: auto;}
+    }
+
+    @media only screen and (max-width: 900px ) and (min-width: 800px ) {
+
+
+        .media_list1 {position: relative;
+                      right: 280px;}
+
+        .media_main_logo {width: 100px;}
+
+        .banner {width: 98%;
+                margin: auto;}
+    }
+
+    @media only screen and (max-width: 800px ) and (min-width: 700px ) {
+
+        .media_main_logo {width: 100px;
+                         margin-left: 200px;}
+
+        .media_list1 {position: relative;
+                      right: 320px;
+                     font-size: smaller;}
+
+        .banner {width: 98%;
+                margin: auto;}
+    }
+
+    @media only screen and (max-width: 700px ) and (min-width: 600px ) {
+
+        .media_list1 {position: relative;
+            right: 100% !important;
+            font-size: 10px;}
+
+        .media_main_logo {
+            position: relative;
+            left: 10%!important;}
+
+        .banner {width: 98%;
+                margin: auto;}
+
+        .open_hours {width: 300px;}
+    }
+
+    @media only screen and (max-width: 600px ) and (min-width: 500px ) {
+    
+        .media_list1 {position: relative;
+            right: 100% !important;
+            font-size: 10px;}
+
+        .media_main_logo {
+            position: relative;
+            left: 10%!important;}
+
+        .banner {width: 98%;
+                margin: auto;}
+
+        .open_hours {width: 300px;}
+
+
+    }
+
+    @media only screen and (max-width: 500px ) and (min-width: 400px ) {
+
+        .media_list1 {display: none;}
+        .media_main_logo {
+            position: relative;
+            left: 10%!important;}
+
+        .open_hours {width: 300px!important;
+                     font-size: small!important;
+                     position: relative;
+                     right: 10%!important;}
+
+            .banner {height: 300px!important;}
+
+
+    }    
+
+    @media only screen and (max-width: 400px ) and (min-width: 300px ) {
+
+        .media_list1 {display: none;}
+        .media_main_logo {
+            position: relative;
+            left: 10%!important;}
+
+        .open_hours {width: 300px!important;
+            font-size: small!important;
+            position: relative;
+            right: 10%!important;}
+            
+            .banner {height: 300px!important;}
+
+    }   
+
+
+   
+    
+   
+    
+
+    
+    
+
+
